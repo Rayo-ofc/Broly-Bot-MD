@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/David-Chian/Megumin-Bot-MD",
+"homepage": "https://github.com/Rayo-ofc/Broly-Bot-MD",
 "author": {
-"name": "David-Chian"
+"name": "Rayo-ofc"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/David-Chian/Megumin-Bot-MD.git"
+"url": "git+https://github.com/Rayo-ofc/Broly-Bot-MD.git"
 },
 "bugs": {
-"url": "https://github.com/David-Chian/Megumin-Bot-MD/issues"
+"url": "https://github.com/Rayo-ofc/Broly-Bot-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
