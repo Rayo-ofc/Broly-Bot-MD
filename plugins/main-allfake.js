@@ -43,7 +43,7 @@ global.botcommandcount = bot.botcommandCount //Ver cuantos comandos fueron ejecu
 global.creador = 'Wa.me/5351524614'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/5351524614'
-global.namechannel = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐/ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
+global.namechannel = 'Brolyn/Rayo'
 global.namegrupo = '⁝̵̓ᝒ̷̸͙🌸̶̩ܻᝒ̷̸꯭͙𝝡꯭𝝣꯭𝗚꯭𝗨꯭𝗠꯭𝗜꯭𝗡'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝝡𝝣𝗚𝗨𝗠𝗜𝗡'
 global.colab1 = 'Miguelon'
@@ -51,9 +51,9 @@ global.colab2 = 'Steven'
 global.colab3 = 'Dino'
 
 //Ids channel
-global.idchannel = '120363350554513092@newsletter'
-global.canalIdM = ["120363307382381547@newsletter", "120363350554513092@newsletter"]
-global.canalNombreM = ["──͟͞꘩𓎇̶𝐿̸𝑒̤𝑔֟֯፝𝑒⃯𝑛̷̈𝑑̤𝑠͡𔗓𝐵̸͜𝑜𝑡͜ꤩꤨ𝑠ꦁ⃯㍰ꫂ", "Megumin - Test 💥"]
+global.idchannel = '120363276986902836@newsletter'
+global.canalIdM = ["120363276986902836@newsletter", "120363276986902836@newsletter"]
+global.canalNombreM = ["Broly-Bot-MD", "Broly - Test ☄"]
 global.channelRD = await getRandomChannel()
 
 //Reacciones De Comandos.!
