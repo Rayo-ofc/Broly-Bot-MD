@@ -37,25 +37,20 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 //const megu = dirname(fileURLToPath(import.meta.url))
 //let require = createRequire(megu)
 let { say } = cfonts
+import chalk from 'chalk'
 
-console.log(chalk.bold.redBright(`\n☄️ Iniciando Broly Bot - MD\n`))
+console.log(chalk.bold.greenBright(`\n💚 Broly Bot - MD\n`))
 
-say('Broly-/nBot', {
-font: 'block',
-align: 'center',
-colors: ['white']
+say('Broly Bot', {
+  font: 'block',
+  align: 'center',
+  colors: ['green']
 })
 
-say(`Multi Device`, {
-font: 'chrome',
-align: 'center',
-colors: ['red']
-})
-
-say(`Developed By • Rayo Ofc`, {
-font: 'console',
-align: 'center',
-colors: ['yellow']
+say('Creador: Rayo-ofc', {
+  font: 'console',
+  align: 'center',
+  colors: ['green']
 })
 
 /*const rl = createInterface(process.stdin, process.stdout);
