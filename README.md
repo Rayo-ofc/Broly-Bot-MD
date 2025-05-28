@@ -1,7 +1,7 @@
 # Broly-Bot-MD
 
 <p align="center">
-  <img src="https://static.wikia.nocookie.net/dragonball/images/5/5d/Broly_Dragon_Ball_Super_Broly.png" width="320"/>
+  <img src="https://files.catbox.moe/pn38u9.jpg" width="320"/>
 </p>
 
 <p align="center">
