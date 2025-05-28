@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3AFF00&center=true&vCenter=true&width=450&lines=Gracias+por+el+apoyo+%F0%9F%91%8D" alt="Gracias por el apoyo animado" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3AFF00&center=true&vCenter=true&width=450&lines=Gracias+por+el+apoyo+%F0%9F%91%8D" alt="Gracias por el apoyo 💚" />
 </p>
 
 ## 🤖 Bot en desarrollo
