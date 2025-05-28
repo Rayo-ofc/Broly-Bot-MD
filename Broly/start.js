@@ -38,18 +38,24 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 //let require = createRequire(megu)
 let { say } = cfonts
 
-console.log(chalk.bold.greenBright(`\n💚 Broly Bot - MD\n`))
+console.log(chalk.bold.redBright(`\n☄️ Iniciando Broly Bot - MD\n`))
 
-say('Broly Bot', {
-  font: 'block',
-  align: 'center',
-  colors: ['green']
+say('Broly-/nBot', {
+font: 'block',
+align: 'center',
+colors: ['white']
 })
 
-say('Creador: Rayo-ofc', {
-  font: 'console',
-  align: 'center',
-  colors: ['green']
+say(`Multi Device`, {
+font: 'chrome',
+align: 'center',
+colors: ['red']
+})
+
+say(`Developed By • Rayo Ofc`, {
+font: 'console',
+align: 'center',
+colors: ['yellow']
 })
 
 /*const rl = createInterface(process.stdin, process.stdout);
