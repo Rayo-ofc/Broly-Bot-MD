@@ -37,7 +37,6 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 //const megu = dirname(fileURLToPath(import.meta.url))
 //let require = createRequire(megu)
 let { say } = cfonts
-import chalk from 'chalk'
 
 console.log(chalk.bold.greenBright(`\n💚 Broly Bot - MD\n`))
 
