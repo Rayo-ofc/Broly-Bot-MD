@@ -34,7 +34,7 @@ function start(file) {
   if (isRunning) return
   isRunning = true
 
-  let args = [join(__dirname, 'megumin', file), ...process.argv.slice(2)]
+  let args = [join(__dirname, 'Broly', file), ...process.argv.slice(2)]
   cfonts.say([process.argv[0], ...args].join(' '), {
     font: 'console',
     align: 'center',
