@@ -171,16 +171,17 @@ console.debug = () => {}
 ['log', 'warn', 'error'].forEach(methodName => redefineConsoleMethod(methodName, filterStrings))
 
 const connectionOptions = {
-logger: pino({ level: "fatal" }),
-printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
-mobile: MethodMobile, 
-auth: {
-creds: state.creds,
-keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
-},
-browser: ["Ubuntu", "Edge", "131.0.2903.86"],
-version: version,
-generateHighQualityLinkPreview: true
+  logger: pino({ level: "fatal" }),
+  printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
+  mobile: MethodMobile,
+  auth: {
+    creds: state.creds,
+    keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
+  },
+  browser: ["Ubuntu", "Edge", "131.0.2903.86"],
+  version: [2, 3000, 1023223821],
+  defaultQueryTimeoutMs: undefined,
+  generateHighQualityLinkPreview: true
 };
 
 global.conn = makeWASocket(connectionOptions)
